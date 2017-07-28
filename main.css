@@ -1,0 +1,33 @@
+/**{
+  box-sizing: border-box;
+  border: 2px solid black;
+}*/
+ section, nav, header, h1, h2, h3 {
+  display: block;
+  max-width: 100%
+}
+
+header{
+  display: flex;
+}
+hr{
+  size:2px;
+}
+/*i have used img-responsive
+img{
+  max-width: 100%;
+}*/
+/* i have used the project part 3 logo and its style*/
+
+svg#logo {
+  fill: #666;
+  height: 6vw;
+  margin: 0 auto 0.5em auto;
+  width: 6vw;
+}
+
+.log:hover svg#logo {
+  fill: #3d85c6;
+  -webkit-filter: drop-shadow(3px 3px 3px #ddd);
+  filter: drop-shadow(3px 3px 3px #ddd);
+}
